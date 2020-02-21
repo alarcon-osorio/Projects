@@ -1,0 +1,7 @@
+Este archivo es de información y es para comprender la estructura y posicion de los archivos.
+
+index.php
+|css|style.css
+|js|jquery.js
+|js|particles.js
+|svg|svg.html
