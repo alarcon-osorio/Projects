@@ -1,0 +1,93 @@
+/*-------------------------
+	Simple reset
+--------------------------*/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+/*-------------------------
+	General Styles
+--------------------------*/
+
+
+h1{
+	margin-left: -715px;
+    margin-top: -240px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: #4c0e8b;
+    font-style: italic;
+	width:626px;
+	
+	
+}
+
+h2{
+	margin-left: -717px;
+    margin-top: 117.2px;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #4c0e8b;
+    font-style: italic;
+	background-color: rgba(255, 255, 255, 0.52);
+    width: 25%;
+	
+}
+
+
+h3{
+    margin-left: -717px;
+    margin-top: 0px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #328b0e;
+    font-style: italic;
+	background-color: rgba(255, 255, 255, 0.52);
+    width: 25%;
+	height: 70px;
+}
+
+
+body{
+	background:url('../images/background_display.jpg') center center no-repeat;
+	margin: 105.5px;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#aaa;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+
+/*-------------------------------
+	Slideshow 
+--------------------------------*/
+
+
+#foto{
+	margin:85px auto 0;
+	border:16px solid #fff;
+	/*width:600px;*/
+	margin-left:570px;
+	height:415px;
+	box-shadow:5px 5px 0 rgba(22,22,22,0.3);
+}
+
+.fade{
+    /*opacity: 0.2;*/
+ 
+    -webkit-transition: opacity 0.3s;
+   transition: opacity 0.3s;
+}
+.fade:hover {
+    opacity: 1;
+}
+
